@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: red;
+    color: yellow;
+    padding: 100px;
+    text-align: center;
+}
+
+nav {
+    background-color: #333;
+    padding: 1rem;
+    text-align: center;
+    color: white;
+}
+
+nav a {
+    color: yellow;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+.container {
+    max-width: 1900px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: black;
+    color: white;
+}
+
+.movie-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 50px;
+    padding: 1rem;
+    margin-bottom: 50px;
+    margin-top: 8px;
+}
+
+.movie-card {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+    color: black;
+}
+
+.movie-card:hover {
+    transform: translateY(-5px);
+}
+
+.movie-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.movie-info {
+    padding: 1rem;
+}
+
+.movie-info h3 {
+    margin-bottom: 0.5rem;
+}
+
+.comprar {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    padding: 0.5rem;
+    text-align: center;
+    margin-top: -15px;
+}
+
+.comprar:hover {
+    background-color: red;
+    color: yellow;
+}
+
+footer {
+    background-color: #1a1a1a;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    bottom: 0;
+    width: 100%;
+}
