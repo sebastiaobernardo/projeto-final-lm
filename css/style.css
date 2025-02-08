@@ -12,7 +12,6 @@ body {
 
 header {
     background-color: rgba(0, 0, 0, 0.9);
-    position: fixed;
     width: 100%;
     z-index: 1000;
     padding: 1rem 0;
@@ -52,8 +51,9 @@ nav {
 
 .hero-section {
     height: 80vh;
-    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
-                url('/api/placeholder/1920/1080');
+    /*background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+                url('/api/placeholder/1920/1080');*/
+    background-image: url(../imgs/background-intro.jpg);          
     background-size: cover;
     background-position: center;
     display: flex;
@@ -86,6 +86,11 @@ nav {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+}
+
+.cta-button a{
+    text-decoration: none;
+    color: white;
 }
 
 .cta-button:hover {
