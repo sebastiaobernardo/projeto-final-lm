@@ -119,6 +119,45 @@ nav {
     font-size: 1.5rem;
 }
 
+@keyframes slideIn {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.carousel-item {
+    animation: FadeIn 1s ease-in-out;
+}
+
+@keyframes scaleUp {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.2);
+    }
+}
+
+.nav-link:hover {
+    animation: scaleUp 0.3s ease-in-out forwards;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(5deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.movie-card:hover {
+    animation: rotate 2s ease-in-out;
+}
+
 .container {
     max-width: 1900px;
     margin: 0 auto;
@@ -317,6 +356,10 @@ nav {
     border-top: 1px solid #333;
     text-align: center;
     color: #999;
+}
+
+.social-link:hover {
+    animation: scaleUp 0.3s ease-in-out forwards;
 }
 
 @media (max-width: 768px) {
