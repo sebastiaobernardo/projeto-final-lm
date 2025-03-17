@@ -23,11 +23,11 @@
                         </svg>
                     </button>
                     <div id="dropdown" class="hidden bg-black rounded-lg shadow-lg mt-2 py-2 w-48 z-50">
-                        <a href="#" class="block px-4 py-2 text-white hover:bg-red-600">Ação</a>
-                        <a href="#" class="block px-4 py-2 text-white hover:bg-red-600">Comédia</a>
-                        <a href="#" class="block px-4 py-2 text-white hover:bg-red-600">Terror</a>
-                        <a href="#" class="block px-4 py-2 text-white hover:bg-red-600">Romance</a>
-                        <a href="#" class="block px-4 py-2 text-white hover:bg-red-600">Drama</a>
+                        <a href="#destaques" class="block px-4 py-2 text-white hover:bg-red-600">Destaques</a>
+                        <a href="#comedia" class="block px-4 py-2 text-white hover:bg-red-600">Comédia</a>
+                        <a href="#terror" class="block px-4 py-2 text-white hover:bg-red-600">Terror</a>
+                        <a href="#romance" class="block px-4 py-2 text-white hover:bg-red-600">Romance</a>
+                        <a href="#nacional" class="block px-4 py-2 text-white hover:bg-red-600">Nacional</a>
                     </div>
                 </div>
                 <a href="registro.html" class="nav-link"><i class="fa-solid fa-arrow-right-to-bracket"></i> Login</a>
@@ -43,18 +43,27 @@
                 <img src="imgs/background-intro.jpg" class="absolute block w-full h-full object-cover" alt="Slide 1">
                 <div class="carousel-text">
                     <h1>Bem-vindo ao Absolute Cinema!</h1>
-                    <p>Descubra os melhores filmes e séries</p>
+                    <p>Descubra os melhores filmes do momento</p>
                 </div>
             </div>
             <!-- Imagem 2 -->
             <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img src="imgs/poster1.jpg" class="absolute block w-full h-full object-cover" alt="Slide 2">
+                <img src="imgs/poster3.jpg" class="absolute block w-full h-full object-cover" alt="Slide 2">
             </div>
             <!-- Imagem 3 -->
             <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img src="imgs/poster2.jpg" class="absolute block w-full h-full object-cover" alt="Slide 3">
+                <img src="imgs/poster1.jpg" class="absolute block w-full h-full object-cover" alt="Slide 3">
+            </div>
+            <!-- Imagem 4 -->
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img src="imgs/poster2.jpg" class="absolute block w-full h-full object-cover" alt="Slide 4">
+            </div>
+        <!-- Imagem 5 -->
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img src="imgs/poster4.jpg" class="absolute block w-full h-full object-cover" alt="Slide 5">
             </div>
         </div>
+    </div>
         <!-- Aqui são os botões do carrossel -->
         <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
             <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 group-hover:bg-white/50 group-focus:ring-4 group-focus:ring-white group-focus:outline-none">
@@ -79,7 +88,7 @@
     </section>
     <section class="category-section">
         <div class="section-header">
-            <h2 class="text-xl font-bold text-white">Filmes em Destaque</h2>
+            <h2 class="text-xl font-bold text-white" id="destaques">Filmes em Destaque</h2>
             <a href="#" class="view-all text-lg text-white hover:text-red-600">Ver todos <i class="fas fa-chevron-right"></i></a>
         </div>
         <div class="movie-grid">
@@ -214,7 +223,7 @@
     </section>
     <section class="category-section">
         <div class="section-header">
-            <h2 class="text-xl font-bold text-white">Comédia em Alta</h2>
+            <h2 class="text-xl font-bold text-white" id="comedia">Comédia em Alta</h2>
             <a href="#" class="view-all text-lg text-white hover:text-red-600">Ver todos <i class="fas fa-chevron-right"></i></a>
         </div>
         <div class="movie-grid">
@@ -346,7 +355,7 @@
     </section>
     <section class="category-section">
         <div class="section-header">
-            <h2 class="text-xl font-bold text-white">Terror em Alta</h2>
+            <h2 class="text-xl font-bold text-white" id="terror">Terror em Alta</h2>
             <a href="#" class="view-all text-lg text-white hover:text-red-600">Ver todos <i class="fas fa-chevron-right"></i></a>
         </div>
         <div class="movie-grid">
@@ -480,7 +489,7 @@
     </section>
     <section class="category-section">
         <div class="section-header">
-            <h2 class="text-xl font-bold text-white">Romance em Alta</h2>
+            <h2 class="text-xl font-bold text-white" id="romance">Romance em Alta</h2>
             <a href="#" class="view-all text-lg text-white hover:text-red-600">Ver todos <i class="fas fa-chevron-right"></i></a>
         </div>
         <div class="movie-grid">
@@ -612,7 +621,7 @@
     </section>
     <section class="category-section">
         <div class="section-header">
-            <h2 class="text-xl font-bold text-white">Nacional em Alta</h2>
+            <h2 class="text-xl font-bold text-white" id="nacional">Nacional em Alta</h2>
             <a href="#" class="view-all text-lg text-white hover:text-red-600">Ver todos <i class="fas fa-chevron-right"></i></a>
         </div>
         <div class="movie-grid">
